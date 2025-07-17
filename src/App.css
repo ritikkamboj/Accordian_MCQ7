@@ -11,7 +11,27 @@
   /* -webkit-transition-duration: \; */
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
 }
 .accordian-data {
   padding: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: blanchedalmond;
+}
+.accordian-text {
+  font-size: 18px;
+  margin: 8px;
 }

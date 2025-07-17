@@ -50,9 +50,9 @@ function App() {
       {
        (!accordionData || accordionData.length == 0) ? <h1>No Availaible Data</h1> : <div className='accordian-data'>
           {
-            accordionData.map((data, i) => <div key={i} className='accordian'><button onClick={() => handleToggle(i)}>{data.title}{visibleIndex === i ? <IoIosArrowDropup /> : <IoIosArrowDropdown />}</button>
+            accordionData.map((data, i) => <div key={i} className='accordian'><button className='button'  onClick={() => handleToggle(i)}>{data.title}{visibleIndex === i ? <IoIosArrowDropup size={20} /> : <IoIosArrowDropdown size={20}  />}</button>
 
-              {visibleIndex === i && <div>{data.content}</div>}
+              {visibleIndex === i && <div className='accordian-text'>{data.content}</div>}
             </div>)
           }
         </div>
