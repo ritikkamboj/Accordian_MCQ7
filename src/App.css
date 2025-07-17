@@ -1,0 +1,17 @@
+.app {
+  /* width: 500px; */
+  margin: 0 auto;
+  text-align: center;
+}
+.accordian-data {
+  /* margin: 10px; */
+  border: 2px solid black;
+  width: 700px;
+  margin: 0 auto;
+  /* -webkit-transition-duration: \; */
+  display: flex;
+  flex-direction: column;
+}
+.accordian-data {
+  padding: 10px;
+}
